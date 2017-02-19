@@ -6,4 +6,4 @@ npm i
 npm run dev
 ```
 #### step2
-open bowser at http://localhost:7001
+open bowser at localhost:7001
