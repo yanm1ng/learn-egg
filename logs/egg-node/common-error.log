@@ -1,0 +1,2573 @@
+2017-02-13 11:28:11,741 ERROR 7824 [-/127.0.0.1/-/1ms GET /] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:419:13)
+    at Socket.g (events.js:292:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:342:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+errorno: 'ETIMEDOUT'
+code: 'ETIMEDOUT'
+syscall: 'connect'
+fatal: true
+name: 'ETIMEDOUTError'
+pid: 7824
+hostname: MacBook-Pro.local
+
+2017-02-13 11:28:14,848 ERROR 7824 [-/127.0.0.1/-/10013ms GET /] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:419:13)
+    at Socket.g (events.js:292:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:342:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `id` = 14 LIMIT 0, 1
+errorno: 'ETIMEDOUT'
+code: 'ETIMEDOUT'
+syscall: 'connect'
+fatal: true
+name: 'ETIMEDOUTError'
+pid: 7824
+hostname: MacBook-Pro.local
+
+2017-02-13 11:29:03,744 ERROR 7832 [-/127.0.0.1/-/1ms GET /] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:419:13)
+    at Socket.g (events.js:292:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:342:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+errorno: 'ETIMEDOUT'
+code: 'ETIMEDOUT'
+syscall: 'connect'
+fatal: true
+name: 'ETIMEDOUTError'
+pid: 7832
+hostname: MacBook-Pro.local
+
+2017-02-13 11:29:05,431 ERROR 7832 [-/127.0.0.1/-/10014ms GET /] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:419:13)
+    at Socket.g (events.js:292:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:342:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+errorno: 'ETIMEDOUT'
+code: 'ETIMEDOUT'
+syscall: 'connect'
+fatal: true
+name: 'ETIMEDOUTError'
+pid: 7832
+hostname: MacBook-Pro.local
+
+2017-02-13 11:30:31,055 ERROR 7842 [-/127.0.0.1/-/0ms GET /] nodejs.ETIMEDOUTError: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:419:13)
+    at Socket.g (events.js:292:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:342:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+errorno: 'ETIMEDOUT'
+code: 'ETIMEDOUT'
+syscall: 'connect'
+fatal: true
+name: 'ETIMEDOUTError'
+pid: 7842
+hostname: MacBook-Pro.local
+
+2017-02-13 11:31:23,064 ERROR 7854 [-/127.0.0.1/-/0ms GET /] nodejs.PROTOCOL_SEQUENCE_TIMEOUTError: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:160:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:127:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'PROTOCOL_SEQUENCE_TIMEOUT'
+fatal: true
+timeout: 10000
+name: 'PROTOCOL_SEQUENCE_TIMEOUTError'
+pid: 7854
+hostname: MacBook-Pro.local
+
+2017-02-13 11:31:25,010 ERROR 7854 [-/127.0.0.1/-/10013ms GET /] nodejs.PROTOCOL_SEQUENCE_TIMEOUTError: Handshake inactivity timeout
+    at Handshake.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:160:17)
+    at emitNone (events.js:86:13)
+    at Handshake.emit (events.js:185:7)
+    at Handshake._onTimeout (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:127:8)
+    at ontimeout (timers.js:365:14)
+    at tryOnTimeout (timers.js:237:5)
+    at Timer.listOnTimeout (timers.js:207:5)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'PROTOCOL_SEQUENCE_TIMEOUT'
+fatal: true
+timeout: 10000
+name: 'PROTOCOL_SEQUENCE_TIMEOUTError'
+pid: 7854
+hostname: MacBook-Pro.local
+
+2017-02-13 11:31:57,529 ERROR 7858 [-/127.0.0.1/-/1ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 7858
+hostname: MacBook-Pro.local
+
+2017-02-13 11:31:58,963 ERROR 7859 [-/127.0.0.1/-/1ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 7859
+hostname: MacBook-Pro.local
+
+2017-02-13 11:31:59,807 ERROR 7863 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 7863
+hostname: MacBook-Pro.local
+
+2017-02-13 11:32:03,872 ERROR 7864 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 7864
+hostname: MacBook-Pro.local
+
+2017-02-13 11:32:04,534 ERROR 7865 [-/127.0.0.1/-/1ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 7865
+hostname: MacBook-Pro.local
+
+2017-02-13 11:32:07,453 ERROR 7866 [-/127.0.0.1/-/1ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 7866
+hostname: MacBook-Pro.local
+
+2017-02-13 11:32:13,505 ERROR 7869 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 7869
+hostname: MacBook-Pro.local
+
+2017-02-13 13:52:36,817 ERROR 8281 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8281
+hostname: MacBook-Pro.local
+
+2017-02-13 13:52:37,682 ERROR 8282 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8282
+hostname: MacBook-Pro.local
+
+2017-02-13 13:55:21,516 ERROR 8282 [-/127.0.0.1/-/15ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8282
+hostname: MacBook-Pro.local
+
+2017-02-13 14:00:53,323 ERROR 8317 [-/127.0.0.1/-/1ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8317
+hostname: MacBook-Pro.local
+
+2017-02-13 14:00:54,733 ERROR 8318 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8318
+hostname: MacBook-Pro.local
+
+2017-02-13 14:00:55,734 ERROR 8321 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8321
+hostname: MacBook-Pro.local
+
+2017-02-13 14:00:56,443 ERROR 8322 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8322
+hostname: MacBook-Pro.local
+
+2017-02-13 14:01:06,323 ERROR 8326 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8326
+hostname: MacBook-Pro.local
+
+2017-02-13 14:01:13,558 ERROR 8327 [-/127.0.0.1/-/1ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8327
+hostname: MacBook-Pro.local
+
+2017-02-13 14:01:15,639 ERROR 8330 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8330
+hostname: MacBook-Pro.local
+
+2017-02-13 14:01:17,616 ERROR 8331 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8331
+hostname: MacBook-Pro.local
+
+2017-02-13 14:01:19,186 ERROR 8332 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8332
+hostname: MacBook-Pro.local
+
+2017-02-13 14:01:21,184 ERROR 8333 [-/127.0.0.1/-/1ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8333
+hostname: MacBook-Pro.local
+
+2017-02-13 14:28:54,542 ERROR 8508 [-/127.0.0.1/-/1ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8508
+hostname: MacBook-Pro.local
+
+2017-02-13 14:28:54,997 ERROR 8509 [-/127.0.0.1/-/1ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8509
+hostname: MacBook-Pro.local
+
+2017-02-13 14:32:02,173 ERROR 8563 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8563
+hostname: MacBook-Pro.local
+
+2017-02-13 15:05:07,080 ERROR 8563 [-/::1/-/16ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8563
+hostname: MacBook-Pro.local
+
+2017-02-13 15:05:08,731 ERROR 8563 [-/::1/-/3ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8563
+hostname: MacBook-Pro.local
+
+2017-02-13 15:05:17,048 ERROR 8774 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8774
+hostname: MacBook-Pro.local
+
+2017-02-13 15:05:17,672 ERROR 8776 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8776
+hostname: MacBook-Pro.local
+
+2017-02-13 15:05:19,256 ERROR 8779 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 8779
+hostname: MacBook-Pro.local
+
+2017-02-13 15:05:50,803 ERROR 9113 [-/127.0.0.1/-/1ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9113
+hostname: MacBook-Pro.local
+
+2017-02-13 15:05:51,930 ERROR 9114 [-/127.0.0.1/-/1ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9114
+hostname: MacBook-Pro.local
+
+2017-02-13 15:05:52,347 ERROR 9114 [-/::1/-/11ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9114
+hostname: MacBook-Pro.local
+
+2017-02-13 15:05:54,665 ERROR 9114 [-/::1/-/3ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9114
+hostname: MacBook-Pro.local
+
+2017-02-13 15:05:55,022 ERROR 9114 [-/::1/-/2ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9114
+hostname: MacBook-Pro.local
+
+2017-02-13 15:06:47,509 ERROR 9129 [-/127.0.0.1/-/0ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9129
+hostname: MacBook-Pro.local
+
+2017-02-13 15:06:54,206 ERROR 9129 [-/::1/-/10ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9129
+hostname: MacBook-Pro.local
+
+2017-02-13 15:06:54,873 ERROR 9129 [-/::1/-/3ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9129
+hostname: MacBook-Pro.local
+
+2017-02-13 15:06:55,155 ERROR 9129 [-/::1/-/2ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9129
+hostname: MacBook-Pro.local
+
+2017-02-13 15:06:55,637 ERROR 9129 [-/::1/-/3ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9129
+hostname: MacBook-Pro.local
+
+2017-02-13 15:06:55,768 ERROR 9129 [-/undefined/-/3ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9129
+hostname: MacBook-Pro.local
+
+2017-02-13 15:06:55,883 ERROR 9129 [-/undefined/-/4ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9129
+hostname: MacBook-Pro.local
+
+2017-02-13 15:06:56,007 ERROR 9129 [-/undefined/-/3ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9129
+hostname: MacBook-Pro.local
+
+2017-02-13 15:06:56,115 ERROR 9129 [-/undefined/-/2ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9129
+hostname: MacBook-Pro.local
+
+2017-02-13 15:06:56,240 ERROR 9129 [-/::1/-/3ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9129
+hostname: MacBook-Pro.local
+
+2017-02-13 15:06:56,348 ERROR 9129 [-/undefined/-/2ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9129
+hostname: MacBook-Pro.local
+
+2017-02-13 15:06:56,472 ERROR 9129 [-/::1/-/2ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9129
+hostname: MacBook-Pro.local
+
+2017-02-13 15:06:56,705 ERROR 9129 [-/::1/-/3ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9129
+hostname: MacBook-Pro.local
+
+2017-02-13 15:06:57,330 ERROR 9129 [-/::1/-/2ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'minfo1.3'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9129
+hostname: MacBook-Pro.local
+
+2017-02-13 15:08:14,740 ERROR 9136 [-/127.0.0.1/-/1ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'wc'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9136
+hostname: MacBook-Pro.local
+
+2017-02-13 15:08:15,229 ERROR 9137 [-/127.0.0.1/-/0ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'wc'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9137
+hostname: MacBook-Pro.local
+
+2017-02-13 15:08:16,237 ERROR 9138 [-/127.0.0.1/-/0ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'wc'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9138
+hostname: MacBook-Pro.local
+
+2017-02-13 15:08:16,774 ERROR 9138 [-/::1/-/10ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'wc'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9138
+hostname: MacBook-Pro.local
+
+2017-02-13 15:08:18,141 ERROR 9138 [-/::1/-/3ms GET /] nodejs.ER_BAD_DB_ERRORError: ER_BAD_DB_ERROR: Unknown database 'wc'
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_DB_ERROR'
+errno: 1049
+sqlState: '42000'
+fatal: true
+name: 'ER_BAD_DB_ERRORError'
+pid: 9138
+hostname: MacBook-Pro.local
+
+2017-02-13 15:08:33,120 ERROR 9144 [-/::1/-/20ms GET /] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'u_id' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:199:23)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 9144
+hostname: MacBook-Pro.local
+
+2017-02-13 15:08:47,924 ERROR 9144 [-/::1/-/3ms GET /] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'u_id' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:199:23)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 9144
+hostname: MacBook-Pro.local
+
+2017-02-13 15:08:48,594 ERROR 9160 [-/::1/-/8ms GET /] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'u_id' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:199:23)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 9160
+hostname: MacBook-Pro.local
+
+2017-02-13 15:08:48,876 ERROR 9160 [-/::1/-/3ms GET /] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'u_id' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:199:23)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 9160
+hostname: MacBook-Pro.local
+
+2017-02-13 15:08:49,070 ERROR 9160 [-/::1/-/2ms GET /] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'u_id' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:199:23)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 9160
+hostname: MacBook-Pro.local
+
+2017-02-13 15:08:49,349 ERROR 9160 [-/::1/-/2ms GET /] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'u_id' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:199:23)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    sql: SELECT * FROM `user` WHERE `u_id` = 14 LIMIT 0, 1
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 9160
+hostname: MacBook-Pro.local
+
+2017-02-13 15:15:28,218 ERROR 9246 [-/127.0.0.1/-/1ms GET /] nodejs.ETIMEDOUTError: connect ETIMEDOUT 114.55.14.52:3306
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ETIMEDOUT'
+errno: 'ETIMEDOUT'
+syscall: 'connect'
+address: '114.55.14.52'
+port: 3306
+fatal: true
+name: 'ETIMEDOUTError'
+pid: 9246
+hostname: MacBook-Pro.local
+
+2017-02-13 15:15:31,425 ERROR 9246 [-/::1/-/7816ms GET /] nodejs.ETIMEDOUTError: connect ETIMEDOUT 114.55.14.52:3306
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `userId` = 1 LIMIT 0, 1
+code: 'ETIMEDOUT'
+errno: 'ETIMEDOUT'
+syscall: 'connect'
+address: '114.55.14.52'
+port: 3306
+fatal: true
+name: 'ETIMEDOUTError'
+pid: 9246
+hostname: MacBook-Pro.local
+
+2017-02-13 15:45:40,255 ERROR 9246 [-/::1/-/7798ms GET /] nodejs.ETIMEDOUTError: connect ETIMEDOUT 114.55.14.52:3306
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `userId` = 1 LIMIT 0, 1
+code: 'ETIMEDOUT'
+errno: 'ETIMEDOUT'
+syscall: 'connect'
+address: '114.55.14.52'
+port: 3306
+fatal: true
+name: 'ETIMEDOUTError'
+pid: 9246
+hostname: MacBook-Pro.local
+
+2017-02-13 15:50:06,761 ERROR 9246 [-/::1/-/7851ms GET /] nodejs.ETIMEDOUTError: connect ETIMEDOUT 114.55.14.52:3306
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `userId` = 1 LIMIT 0, 1
+code: 'ETIMEDOUT'
+errno: 'ETIMEDOUT'
+syscall: 'connect'
+address: '114.55.14.52'
+port: 3306
+fatal: true
+name: 'ETIMEDOUTError'
+pid: 9246
+hostname: MacBook-Pro.local
+
+2017-02-13 15:50:15,846 ERROR 9246 [-/::1/-/7872ms GET /] nodejs.ETIMEDOUTError: connect ETIMEDOUT 114.55.14.52:3306
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: SELECT * FROM `user` WHERE `userId` = 1 LIMIT 0, 1
+code: 'ETIMEDOUT'
+errno: 'ETIMEDOUT'
+syscall: 'connect'
+address: '114.55.14.52'
+port: 3306
+fatal: true
+name: 'ETIMEDOUTError'
+pid: 9246
+hostname: MacBook-Pro.local
+
+2017-02-13 16:06:00,353 ERROR 9711 [-/::1/-/2ms GET /user/a] nodejs.TypeError: Cannot read property 'id' of undefined
+    at HomeController.info (/Users/yanming/Desktop/egg-node/app/controller/home.js:13:34)
+    at info.next (<anonymous>)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:65:19)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+
+pid: 9711
+hostname: MacBook-Pro.local
+
+2017-02-13 16:23:08,048 ERROR 9884 [-/::1/-/6ms GET /user/1] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.info (/Users/yanming/Desktop/egg-node/app/controller/user.js:6:33)
+    at info.next (<anonymous>)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:65:19)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+
+pid: 9884
+hostname: MacBook-Pro.local
+
+2017-02-13 16:23:09,464 ERROR 9884 [-/::1/-/1ms GET /user/1] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.info (/Users/yanming/Desktop/egg-node/app/controller/user.js:6:33)
+    at info.next (<anonymous>)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:65:19)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+
+pid: 9884
+hostname: MacBook-Pro.local
+
+2017-02-13 16:23:09,882 ERROR 9884 [-/::1/-/0ms GET /user/1] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.info (/Users/yanming/Desktop/egg-node/app/controller/user.js:6:33)
+    at info.next (<anonymous>)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:65:19)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+
+pid: 9884
+hostname: MacBook-Pro.local
+
+2017-02-13 16:23:10,229 ERROR 9884 [-/::1/-/1ms GET /user/1] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.info (/Users/yanming/Desktop/egg-node/app/controller/user.js:6:33)
+    at info.next (<anonymous>)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:65:19)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+
+pid: 9884
+hostname: MacBook-Pro.local
+
+2017-02-13 16:23:10,484 ERROR 9884 [-/::1/-/1ms GET /user/1] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.info (/Users/yanming/Desktop/egg-node/app/controller/user.js:6:33)
+    at info.next (<anonymous>)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:65:19)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+
+pid: 9884
+hostname: MacBook-Pro.local
+
+2017-02-13 16:23:10,732 ERROR 9884 [-/::1/-/1ms GET /user/1] nodejs.TypeError: Cannot read property 'id' of undefined
+    at UserController.info (/Users/yanming/Desktop/egg-node/app/controller/user.js:6:33)
+    at info.next (<anonymous>)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:65:19)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+
+pid: 9884
+hostname: MacBook-Pro.local
+
+2017-02-13 16:32:47,297 ERROR 10198 [-/::1/-/12ms GET /user/1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:199:23)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    sql: SELECT * FROM `user` WHERE `userId` = `uid` = NULL LIMIT 0, 1
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 10198
+hostname: MacBook-Pro.local
+
+2017-02-13 16:32:48,166 ERROR 10198 [-/::1/-/3ms GET /user/1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:199:23)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    sql: SELECT * FROM `user` WHERE `userId` = `uid` = NULL LIMIT 0, 1
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 10198
+hostname: MacBook-Pro.local
+
+2017-02-13 16:32:48,582 ERROR 10198 [-/::1/-/2ms GET /user/1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:199:23)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    sql: SELECT * FROM `user` WHERE `userId` = `uid` = NULL LIMIT 0, 1
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 10198
+hostname: MacBook-Pro.local
+
+2017-02-13 16:32:48,875 ERROR 10198 [-/::1/-/2ms GET /user/1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:199:23)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    sql: SELECT * FROM `user` WHERE `userId` = `uid` = NULL LIMIT 0, 1
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 10198
+hostname: MacBook-Pro.local
+
+2017-02-13 16:32:49,137 ERROR 10198 [-/::1/-/3ms GET /user/1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:199:23)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    sql: SELECT * FROM `user` WHERE `userId` = `uid` = NULL LIMIT 0, 1
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 10198
+hostname: MacBook-Pro.local
+
+2017-02-13 16:32:49,346 ERROR 10198 [-/::1/-/2ms GET /user/1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:199:23)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    sql: SELECT * FROM `user` WHERE `userId` = `uid` = NULL LIMIT 0, 1
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 10198
+hostname: MacBook-Pro.local
+
+2017-02-13 16:32:49,562 ERROR 10198 [-/::1/-/2ms GET /user/1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:199:23)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    sql: SELECT * FROM `user` WHERE `userId` = `uid` = NULL LIMIT 0, 1
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 10198
+hostname: MacBook-Pro.local
+
+2017-02-13 16:32:49,778 ERROR 10198 [-/::1/-/1ms GET /user/1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:199:23)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    sql: SELECT * FROM `user` WHERE `userId` = `uid` = NULL LIMIT 0, 1
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 10198
+hostname: MacBook-Pro.local
+
+2017-02-13 16:32:50,059 ERROR 10198 [-/::1/-/2ms GET /user/1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:199:23)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    sql: SELECT * FROM `user` WHERE `userId` = `uid` = NULL LIMIT 0, 1
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 10198
+hostname: MacBook-Pro.local
+
+2017-02-13 16:32:50,285 ERROR 10198 [-/::1/-/3ms GET /user/1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:199:23)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    sql: SELECT * FROM `user` WHERE `userId` = `uid` = NULL LIMIT 0, 1
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 10198
+hostname: MacBook-Pro.local
+
+2017-02-13 16:32:50,539 ERROR 10198 [-/::1/-/2ms GET /user/1] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'uid' in 'where clause'
+    at Query.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:199:23)
+    at Object.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at Object.thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:69:7)
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:54:5
+    at Object.co (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:118:63)
+    sql: SELECT * FROM `user` WHERE `userId` = `uid` = NULL LIMIT 0, 1
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlState: '42S22'
+index: 0
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 10198
+hostname: MacBook-Pro.local
+
