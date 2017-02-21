@@ -564,3 +564,137 @@
 2017-02-21 15:02:01,365 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
 2017-02-21 15:02:01,565 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/config/config.default.js change
 2017-02-21 15:02:02,104 INFO 4827 [Leader#Watcher] socket connected, port: 56187
+2017-02-21 15:06:08,080 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:06:08,282 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:06:08,792 INFO 4827 [Leader#Watcher] socket connected, port: 56237
+2017-02-21 15:06:10,494 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:06:10,696 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/home.js change
+2017-02-21 15:06:11,184 INFO 4827 [Leader#Watcher] socket connected, port: 56240
+2017-02-21 15:06:22,106 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:06:22,309 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:06:22,484 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:06:22,686 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:06:22,724 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:06:22,929 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:06:56,084 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:06:56,286 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/router.js change
+2017-02-21 15:06:56,790 INFO 4827 [Leader#Watcher] socket connected, port: 56270
+2017-02-21 15:06:56,885 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:06:57,085 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/router.js change
+2017-02-21 15:06:57,597 INFO 4827 [Leader#Watcher] socket connected, port: 56273
+2017-02-21 15:11:28,186 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:11:28,387 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/service/user.js change
+2017-02-21 15:11:28,882 INFO 4827 [Leader#Watcher] socket connected, port: 56374
+2017-02-21 15:11:31,009 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:11:31,210 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/service/user.js change
+2017-02-21 15:11:31,706 INFO 4827 [Leader#Watcher] socket connected, port: 56377
+2017-02-21 15:12:08,554 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:12:08,759 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/service/user.js change
+2017-02-21 15:12:09,267 INFO 4827 [Leader#Watcher] socket connected, port: 56385
+2017-02-21 15:12:13,196 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:12:13,402 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:12:13,496 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:12:13,701 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:12:13,728 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:12:13,899 INFO 4827 [Leader#Watcher] socket connected, port: 56391
+2017-02-21 15:12:13,930 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:12:13,937 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:12:14,139 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:12:14,152 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:12:14,358 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:12:14,379 INFO 4827 [Leader#Watcher] socket connected, port: 56394
+2017-02-21 15:12:14,419 INFO 4827 [Leader#Watcher] socket connected, port: 56397
+2017-02-21 15:12:14,609 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:12:14,810 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:12:14,840 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:12:14,875 INFO 4827 [Leader#Watcher] socket connected, port: 56400
+2017-02-21 15:12:15,042 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:12:15,300 INFO 4827 [Leader#Watcher] socket connected, port: 56403
+2017-02-21 15:12:15,535 INFO 4827 [Leader#Watcher] socket connected, port: 56406
+2017-02-21 15:12:15,602 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:12:15,808 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:12:15,832 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:12:16,036 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:12:16,306 INFO 4827 [Leader#Watcher] socket connected, port: 56409
+2017-02-21 15:12:16,778 INFO 4827 [Leader#Watcher] socket connected, port: 56412
+2017-02-21 15:12:37,934 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:12:38,134 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/router.js change
+2017-02-21 15:12:38,633 INFO 4827 [Leader#Watcher] socket connected, port: 56421
+2017-02-21 15:13:21,250 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:13:21,454 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/service/user.js change
+2017-02-21 15:13:21,686 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:13:21,890 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/service/user.js change
+2017-02-21 15:13:21,951 INFO 4827 [Leader#Watcher] socket connected, port: 56434
+2017-02-21 15:13:22,470 INFO 4827 [Leader#Watcher] socket connected, port: 56437
+2017-02-21 15:13:49,083 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:13:49,287 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/service/user.js change
+2017-02-21 15:13:49,793 INFO 4827 [Leader#Watcher] socket connected, port: 56447
+2017-02-21 15:14:05,267 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:14:05,467 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/service/user.js change
+2017-02-21 15:14:05,968 INFO 4827 [Leader#Watcher] socket connected, port: 56452
+2017-02-21 15:14:12,850 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:14:13,052 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/router.js change
+2017-02-21 15:14:13,537 INFO 4827 [Leader#Watcher] socket connected, port: 56457
+2017-02-21 15:14:14,503 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:14:14,705 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/router.js change
+2017-02-21 15:14:15,217 INFO 4827 [Leader#Watcher] socket connected, port: 56460
+2017-02-21 15:14:29,489 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:14:29,690 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/router.js change
+2017-02-21 15:14:32,351 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:14:32,552 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/service/user.js change
+2017-02-21 15:14:46,185 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:14:46,388 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/service/user.js change
+2017-02-21 15:14:54,338 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:14:54,538 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:15:05,642 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:15:05,846 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:15:06,340 INFO 4827 [Leader#Watcher] socket connected, port: 56470
+2017-02-21 15:15:10,529 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:15:10,730 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:15:11,216 INFO 4827 [Leader#Watcher] socket connected, port: 56474
+2017-02-21 15:15:12,212 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:15:12,413 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:15:12,902 INFO 4827 [Leader#Watcher] socket connected, port: 56477
+2017-02-21 15:15:13,036 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:15:13,236 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:15:13,741 INFO 4827 [Leader#Watcher] socket connected, port: 56480
+2017-02-21 15:17:19,847 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:17:20,052 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:17:20,567 INFO 4827 [Leader#Watcher] socket connected, port: 56495
+2017-02-21 15:17:21,581 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:17:21,783 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:17:22,278 INFO 4827 [Leader#Watcher] socket connected, port: 56498
+2017-02-21 15:17:23,368 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:17:23,570 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:17:24,054 INFO 4827 [Leader#Watcher] socket connected, port: 56502
+2017-02-21 15:17:25,112 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:17:25,316 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:17:25,815 INFO 4827 [Leader#Watcher] socket connected, port: 56505
+2017-02-21 15:18:32,875 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:18:33,078 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/router.js change
+2017-02-21 15:18:37,621 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:18:37,824 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/router.js change
+2017-02-21 15:18:59,207 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:18:59,407 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/service/user.js change
+2017-02-21 15:18:59,420 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:18:59,621 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/service/user.js change
+2017-02-21 15:19:03,547 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:19:03,748 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:19:05,813 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:19:06,013 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:19:08,145 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:19:08,346 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:19:24,136 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:19:24,340 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:19:25,035 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:19:25,237 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:19:25,714 INFO 4827 [Leader#Watcher] socket connected, port: 56524
+2017-02-21 15:19:25,885 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:19:26,090 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:19:26,560 INFO 4827 [Leader#Watcher] socket connected, port: 56528
+2017-02-21 15:19:26,697 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:19:26,899 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:19:27,376 INFO 4827 [Leader#Watcher] socket connected, port: 56531
+2017-02-21 15:19:33,154 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:19:33,355 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/user.js change
+2017-02-21 15:19:33,838 INFO 4827 [Leader#Watcher] socket connected, port: 56536

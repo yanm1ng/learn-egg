@@ -1,8 +1,17 @@
 'use strict';
 
-exports.info = function* () {
+exports.all = function* () {
+  this.body = yield this.service.user.all();
+}
 
-  this.body = yield this.service.user.find({
-    userId: this.params.id
-  });
+exports.one = function* () {
+  const {
+    id
+  } = this.params;
+
+  this.body = yield this.service.user.one(id);
 };
+
+exports.add = function* () {
+  this.body = '';
+}

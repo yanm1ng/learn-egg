@@ -2,11 +2,16 @@
 
 module.exports = app => {
   return class UserService extends app.Service {
-    * find(params) {
+    * all() {
+      const users = yield app.mysql.select('user');
+
+      return users;
+    }
+    * one(id) {
       const user = yield app.mysql.get('user', {
-          userId: params.userId,
+          userId: id,
       });
-      
+
       return user;
     }
   }

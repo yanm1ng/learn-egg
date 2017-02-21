@@ -2591,3 +2591,541 @@
 2017-02-21 15:02:02,111 INFO 4862 [Follower#Watcher] register to channel: Watcher success
 2017-02-21 15:02:02,111 INFO 4862 [egg-watcher:app] watcher start success
 2017-02-21 15:02:02,113 INFO 4862 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:02:02 GMT+0800 (CST)
+2017-02-21 15:06:08,653 INFO 5141 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:06:08,686 INFO 5141 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:06:08,686 INFO 5141 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:06:08,692 INFO 5141 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:06:08,760 INFO 5141 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:06:08,764 INFO 5141 [egg-security] use csrf middleware
+2017-02-21 15:06:08,764 INFO 5141 [egg-security] use methodnoallow middleware
+2017-02-21 15:06:08,765 INFO 5141 [egg-security] use noopen middleware
+2017-02-21 15:06:08,765 INFO 5141 [egg-security] use nosniff middleware
+2017-02-21 15:06:08,766 INFO 5141 [egg-security] use xssProtection middleware
+2017-02-21 15:06:08,766 INFO 5141 [egg-security] use xframe middleware
+2017-02-21 15:06:08,766 INFO 5141 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:06:08,789 INFO 5141 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:06:08,799 INFO 5141 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:06:08,800 INFO 5141 [egg-watcher:app] watcher start success
+2017-02-21 15:06:08,802 INFO 5141 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:06:08 GMT+0800 (CST)
+2017-02-21 15:06:11,050 INFO 5161 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:06:11,082 INFO 5161 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:06:11,083 INFO 5161 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:06:11,089 INFO 5161 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:06:11,157 INFO 5161 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:06:11,160 INFO 5161 [egg-security] use csrf middleware
+2017-02-21 15:06:11,160 INFO 5161 [egg-security] use methodnoallow middleware
+2017-02-21 15:06:11,160 INFO 5161 [egg-security] use noopen middleware
+2017-02-21 15:06:11,161 INFO 5161 [egg-security] use nosniff middleware
+2017-02-21 15:06:11,161 INFO 5161 [egg-security] use xssProtection middleware
+2017-02-21 15:06:11,161 INFO 5161 [egg-security] use xframe middleware
+2017-02-21 15:06:11,161 INFO 5161 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:06:11,182 INFO 5161 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:06:11,191 INFO 5161 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:06:11,192 INFO 5161 [egg-watcher:app] watcher start success
+2017-02-21 15:06:11,194 INFO 5161 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:06:11 GMT+0800 (CST)
+2017-02-21 15:06:56,661 INFO 5223 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:06:56,695 INFO 5223 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:06:56,695 INFO 5223 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:06:56,701 INFO 5223 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:06:56,762 INFO 5223 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:06:56,765 INFO 5223 [egg-security] use csrf middleware
+2017-02-21 15:06:56,766 INFO 5223 [egg-security] use methodnoallow middleware
+2017-02-21 15:06:56,766 INFO 5223 [egg-security] use noopen middleware
+2017-02-21 15:06:56,766 INFO 5223 [egg-security] use nosniff middleware
+2017-02-21 15:06:56,767 INFO 5223 [egg-security] use xssProtection middleware
+2017-02-21 15:06:56,767 INFO 5223 [egg-security] use xframe middleware
+2017-02-21 15:06:56,767 INFO 5223 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:06:56,788 INFO 5223 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:06:56,796 INFO 5223 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:06:56,796 INFO 5223 [egg-watcher:app] watcher start success
+2017-02-21 15:06:56,799 INFO 5223 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:06:56 GMT+0800 (CST)
+2017-02-21 15:06:57,463 INFO 5224 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:06:57,496 INFO 5224 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:06:57,497 INFO 5224 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:06:57,503 INFO 5224 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:06:57,569 INFO 5224 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:06:57,572 INFO 5224 [egg-security] use csrf middleware
+2017-02-21 15:06:57,572 INFO 5224 [egg-security] use methodnoallow middleware
+2017-02-21 15:06:57,573 INFO 5224 [egg-security] use noopen middleware
+2017-02-21 15:06:57,573 INFO 5224 [egg-security] use nosniff middleware
+2017-02-21 15:06:57,574 INFO 5224 [egg-security] use xssProtection middleware
+2017-02-21 15:06:57,574 INFO 5224 [egg-security] use xframe middleware
+2017-02-21 15:06:57,574 INFO 5224 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:06:57,595 INFO 5224 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:06:57,605 INFO 5224 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:06:57,605 INFO 5224 [egg-watcher:app] watcher start success
+2017-02-21 15:06:57,607 INFO 5224 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:06:57 GMT+0800 (CST)
+2017-02-21 15:11:28,748 INFO 5329 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:11:28,782 INFO 5329 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:11:28,782 INFO 5329 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:11:28,789 INFO 5329 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:11:28,854 INFO 5329 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:11:28,857 INFO 5329 [egg-security] use csrf middleware
+2017-02-21 15:11:28,857 INFO 5329 [egg-security] use methodnoallow middleware
+2017-02-21 15:11:28,858 INFO 5329 [egg-security] use noopen middleware
+2017-02-21 15:11:28,858 INFO 5329 [egg-security] use nosniff middleware
+2017-02-21 15:11:28,858 INFO 5329 [egg-security] use xssProtection middleware
+2017-02-21 15:11:28,859 INFO 5329 [egg-security] use xframe middleware
+2017-02-21 15:11:28,859 INFO 5329 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:11:28,880 INFO 5329 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:11:28,889 INFO 5329 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:11:28,889 INFO 5329 [egg-watcher:app] watcher start success
+2017-02-21 15:11:28,892 INFO 5329 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:11:28 GMT+0800 (CST)
+2017-02-21 15:11:31,581 INFO 5346 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:11:31,613 INFO 5346 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:11:31,613 INFO 5346 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:11:31,620 INFO 5346 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:11:31,680 INFO 5346 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:11:31,683 INFO 5346 [egg-security] use csrf middleware
+2017-02-21 15:11:31,683 INFO 5346 [egg-security] use methodnoallow middleware
+2017-02-21 15:11:31,683 INFO 5346 [egg-security] use noopen middleware
+2017-02-21 15:11:31,684 INFO 5346 [egg-security] use nosniff middleware
+2017-02-21 15:11:31,684 INFO 5346 [egg-security] use xssProtection middleware
+2017-02-21 15:11:31,684 INFO 5346 [egg-security] use xframe middleware
+2017-02-21 15:11:31,684 INFO 5346 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:11:31,704 INFO 5346 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:11:31,713 INFO 5346 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:11:31,713 INFO 5346 [egg-watcher:app] watcher start success
+2017-02-21 15:11:31,716 INFO 5346 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:11:31 GMT+0800 (CST)
+2017-02-21 15:12:09,132 INFO 5381 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:12:09,168 INFO 5381 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:12:09,168 INFO 5381 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:12:09,174 INFO 5381 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:12:09,240 INFO 5381 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:12:09,242 INFO 5381 [egg-security] use csrf middleware
+2017-02-21 15:12:09,243 INFO 5381 [egg-security] use methodnoallow middleware
+2017-02-21 15:12:09,243 INFO 5381 [egg-security] use noopen middleware
+2017-02-21 15:12:09,244 INFO 5381 [egg-security] use nosniff middleware
+2017-02-21 15:12:09,244 INFO 5381 [egg-security] use xssProtection middleware
+2017-02-21 15:12:09,244 INFO 5381 [egg-security] use xframe middleware
+2017-02-21 15:12:09,244 INFO 5381 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:12:09,265 INFO 5381 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:12:09,274 INFO 5381 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:12:09,274 INFO 5381 [egg-watcher:app] watcher start success
+2017-02-21 15:12:09,276 INFO 5381 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:12:09 GMT+0800 (CST)
+2017-02-21 15:12:13,767 INFO 5400 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:12:13,800 INFO 5400 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:12:13,800 INFO 5400 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:12:13,805 INFO 5400 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:12:13,869 INFO 5400 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:12:13,871 INFO 5400 [egg-security] use csrf middleware
+2017-02-21 15:12:13,872 INFO 5400 [egg-security] use methodnoallow middleware
+2017-02-21 15:12:13,872 INFO 5400 [egg-security] use noopen middleware
+2017-02-21 15:12:13,873 INFO 5400 [egg-security] use nosniff middleware
+2017-02-21 15:12:13,873 INFO 5400 [egg-security] use xssProtection middleware
+2017-02-21 15:12:13,873 INFO 5400 [egg-security] use xframe middleware
+2017-02-21 15:12:13,873 INFO 5400 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:12:13,897 INFO 5400 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:12:13,906 INFO 5400 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:12:13,906 INFO 5400 [egg-watcher:app] watcher start success
+2017-02-21 15:12:13,908 INFO 5400 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:12:13 GMT+0800 (CST)
+2017-02-21 15:12:14,248 INFO 5401 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:12:14,281 INFO 5401 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:12:14,281 INFO 5401 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:12:14,288 INFO 5401 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:12:14,352 INFO 5401 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:12:14,355 INFO 5401 [egg-security] use csrf middleware
+2017-02-21 15:12:14,355 INFO 5401 [egg-security] use methodnoallow middleware
+2017-02-21 15:12:14,355 INFO 5401 [egg-security] use noopen middleware
+2017-02-21 15:12:14,356 INFO 5401 [egg-security] use nosniff middleware
+2017-02-21 15:12:14,356 INFO 5401 [egg-security] use xssProtection middleware
+2017-02-21 15:12:14,356 INFO 5401 [egg-security] use xframe middleware
+2017-02-21 15:12:14,356 INFO 5401 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:12:14,377 INFO 5401 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:12:14,284 INFO 5402 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:12:14,319 INFO 5402 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:12:14,320 INFO 5402 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:12:14,326 INFO 5402 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:12:14,388 INFO 5402 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:12:14,392 INFO 5402 [egg-security] use csrf middleware
+2017-02-21 15:12:14,393 INFO 5402 [egg-security] use methodnoallow middleware
+2017-02-21 15:12:14,393 INFO 5402 [egg-security] use noopen middleware
+2017-02-21 15:12:14,393 INFO 5402 [egg-security] use nosniff middleware
+2017-02-21 15:12:14,394 INFO 5402 [egg-security] use xssProtection middleware
+2017-02-21 15:12:14,394 INFO 5402 [egg-security] use xframe middleware
+2017-02-21 15:12:14,394 INFO 5402 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:12:14,417 INFO 5402 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:12:14,425 INFO 5402 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:12:14,426 INFO 5402 [egg-watcher:app] watcher start success
+2017-02-21 15:12:14,428 INFO 5402 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:12:14 GMT+0800 (CST)
+2017-02-21 15:12:14,741 INFO 5403 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:12:14,774 INFO 5403 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:12:14,774 INFO 5403 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:12:14,782 INFO 5403 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:12:14,847 INFO 5403 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:12:14,850 INFO 5403 [egg-security] use csrf middleware
+2017-02-21 15:12:14,851 INFO 5403 [egg-security] use methodnoallow middleware
+2017-02-21 15:12:14,851 INFO 5403 [egg-security] use noopen middleware
+2017-02-21 15:12:14,852 INFO 5403 [egg-security] use nosniff middleware
+2017-02-21 15:12:14,852 INFO 5403 [egg-security] use xssProtection middleware
+2017-02-21 15:12:14,852 INFO 5403 [egg-security] use xframe middleware
+2017-02-21 15:12:14,852 INFO 5403 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:12:14,873 INFO 5403 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:12:15,173 INFO 5404 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:12:15,206 INFO 5404 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:12:15,207 INFO 5404 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:12:15,212 INFO 5404 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:12:15,273 INFO 5404 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:12:15,276 INFO 5404 [egg-security] use csrf middleware
+2017-02-21 15:12:15,277 INFO 5404 [egg-security] use methodnoallow middleware
+2017-02-21 15:12:15,277 INFO 5404 [egg-security] use noopen middleware
+2017-02-21 15:12:15,277 INFO 5404 [egg-security] use nosniff middleware
+2017-02-21 15:12:15,278 INFO 5404 [egg-security] use xssProtection middleware
+2017-02-21 15:12:15,278 INFO 5404 [egg-security] use xframe middleware
+2017-02-21 15:12:15,278 INFO 5404 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:12:15,298 INFO 5404 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:12:15,307 INFO 5404 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:12:15,308 INFO 5404 [egg-watcher:app] watcher start success
+2017-02-21 15:12:15,310 INFO 5404 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:12:15 GMT+0800 (CST)
+2017-02-21 15:12:15,398 INFO 5405 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:12:15,434 INFO 5405 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:12:15,434 INFO 5405 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:12:15,440 INFO 5405 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:12:15,504 INFO 5405 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:12:15,508 INFO 5405 [egg-security] use csrf middleware
+2017-02-21 15:12:15,509 INFO 5405 [egg-security] use methodnoallow middleware
+2017-02-21 15:12:15,509 INFO 5405 [egg-security] use noopen middleware
+2017-02-21 15:12:15,510 INFO 5405 [egg-security] use nosniff middleware
+2017-02-21 15:12:15,510 INFO 5405 [egg-security] use xssProtection middleware
+2017-02-21 15:12:15,510 INFO 5405 [egg-security] use xframe middleware
+2017-02-21 15:12:15,510 INFO 5405 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:12:15,532 INFO 5405 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:12:15,541 INFO 5405 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:12:15,541 INFO 5405 [egg-watcher:app] watcher start success
+2017-02-21 15:12:15,543 INFO 5405 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:12:15 GMT+0800 (CST)
+2017-02-21 15:12:16,171 INFO 5406 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:12:16,210 INFO 5406 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:12:16,210 INFO 5406 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:12:16,216 INFO 5406 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:12:16,279 INFO 5406 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:12:16,282 INFO 5406 [egg-security] use csrf middleware
+2017-02-21 15:12:16,283 INFO 5406 [egg-security] use methodnoallow middleware
+2017-02-21 15:12:16,283 INFO 5406 [egg-security] use noopen middleware
+2017-02-21 15:12:16,283 INFO 5406 [egg-security] use nosniff middleware
+2017-02-21 15:12:16,284 INFO 5406 [egg-security] use xssProtection middleware
+2017-02-21 15:12:16,284 INFO 5406 [egg-security] use xframe middleware
+2017-02-21 15:12:16,284 INFO 5406 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:12:16,304 INFO 5406 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:12:16,313 INFO 5406 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:12:16,313 INFO 5406 [egg-watcher:app] watcher start success
+2017-02-21 15:12:16,316 INFO 5406 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:12:16 GMT+0800 (CST)
+2017-02-21 15:12:16,652 INFO 5407 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:12:16,684 INFO 5407 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:12:16,684 INFO 5407 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:12:16,690 INFO 5407 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:12:16,750 INFO 5407 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:12:16,754 INFO 5407 [egg-security] use csrf middleware
+2017-02-21 15:12:16,754 INFO 5407 [egg-security] use methodnoallow middleware
+2017-02-21 15:12:16,755 INFO 5407 [egg-security] use noopen middleware
+2017-02-21 15:12:16,755 INFO 5407 [egg-security] use nosniff middleware
+2017-02-21 15:12:16,756 INFO 5407 [egg-security] use xssProtection middleware
+2017-02-21 15:12:16,756 INFO 5407 [egg-security] use xframe middleware
+2017-02-21 15:12:16,756 INFO 5407 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:12:16,776 INFO 5407 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:12:16,785 INFO 5407 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:12:16,786 INFO 5407 [egg-watcher:app] watcher start success
+2017-02-21 15:12:16,788 INFO 5407 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:12:16 GMT+0800 (CST)
+2017-02-21 15:12:38,500 INFO 5443 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:12:38,533 INFO 5443 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:12:38,533 INFO 5443 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:12:38,539 INFO 5443 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:12:38,606 INFO 5443 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:12:38,609 INFO 5443 [egg-security] use csrf middleware
+2017-02-21 15:12:38,610 INFO 5443 [egg-security] use methodnoallow middleware
+2017-02-21 15:12:38,610 INFO 5443 [egg-security] use noopen middleware
+2017-02-21 15:12:38,610 INFO 5443 [egg-security] use nosniff middleware
+2017-02-21 15:12:38,611 INFO 5443 [egg-security] use xssProtection middleware
+2017-02-21 15:12:38,611 INFO 5443 [egg-security] use xframe middleware
+2017-02-21 15:12:38,611 INFO 5443 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:12:38,631 INFO 5443 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:12:38,640 INFO 5443 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:12:38,640 INFO 5443 [egg-watcher:app] watcher start success
+2017-02-21 15:12:38,643 INFO 5443 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:12:38 GMT+0800 (CST)
+2017-02-21 15:13:21,810 INFO 5491 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:13:21,843 INFO 5491 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:13:21,844 INFO 5491 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:13:21,850 INFO 5491 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:13:21,919 INFO 5491 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:13:21,923 INFO 5491 [egg-security] use csrf middleware
+2017-02-21 15:13:21,924 INFO 5491 [egg-security] use methodnoallow middleware
+2017-02-21 15:13:21,924 INFO 5491 [egg-security] use noopen middleware
+2017-02-21 15:13:21,924 INFO 5491 [egg-security] use nosniff middleware
+2017-02-21 15:13:21,926 INFO 5491 [egg-security] use xssProtection middleware
+2017-02-21 15:13:21,927 INFO 5491 [egg-security] use xframe middleware
+2017-02-21 15:13:21,927 INFO 5491 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:13:21,949 INFO 5491 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:13:21,957 INFO 5491 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:13:21,958 INFO 5491 [egg-watcher:app] watcher start success
+2017-02-21 15:13:21,960 INFO 5491 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:13:21 GMT+0800 (CST)
+2017-02-21 15:13:22,325 INFO 5492 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:13:22,361 INFO 5492 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:13:22,362 INFO 5492 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:13:22,369 INFO 5492 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:13:22,440 INFO 5492 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:13:22,443 INFO 5492 [egg-security] use csrf middleware
+2017-02-21 15:13:22,443 INFO 5492 [egg-security] use methodnoallow middleware
+2017-02-21 15:13:22,444 INFO 5492 [egg-security] use noopen middleware
+2017-02-21 15:13:22,444 INFO 5492 [egg-security] use nosniff middleware
+2017-02-21 15:13:22,445 INFO 5492 [egg-security] use xssProtection middleware
+2017-02-21 15:13:22,445 INFO 5492 [egg-security] use xframe middleware
+2017-02-21 15:13:22,445 INFO 5492 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:13:22,469 INFO 5492 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:13:22,477 INFO 5492 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:13:22,477 INFO 5492 [egg-watcher:app] watcher start success
+2017-02-21 15:13:22,480 INFO 5492 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:13:22 GMT+0800 (CST)
+2017-02-21 15:13:49,658 INFO 5526 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:13:49,690 INFO 5526 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:13:49,691 INFO 5526 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:13:49,696 INFO 5526 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:13:49,762 INFO 5526 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:13:49,766 INFO 5526 [egg-security] use csrf middleware
+2017-02-21 15:13:49,766 INFO 5526 [egg-security] use methodnoallow middleware
+2017-02-21 15:13:49,767 INFO 5526 [egg-security] use noopen middleware
+2017-02-21 15:13:49,767 INFO 5526 [egg-security] use nosniff middleware
+2017-02-21 15:13:49,768 INFO 5526 [egg-security] use xssProtection middleware
+2017-02-21 15:13:49,768 INFO 5526 [egg-security] use xframe middleware
+2017-02-21 15:13:49,768 INFO 5526 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:13:49,792 INFO 5526 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:13:49,800 INFO 5526 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:13:49,800 INFO 5526 [egg-watcher:app] watcher start success
+2017-02-21 15:13:49,802 INFO 5526 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:13:49 GMT+0800 (CST)
+2017-02-21 15:14:05,835 INFO 5544 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:14:05,871 INFO 5544 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:14:05,872 INFO 5544 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:14:05,877 INFO 5544 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:14:05,939 INFO 5544 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:14:05,942 INFO 5544 [egg-security] use csrf middleware
+2017-02-21 15:14:05,943 INFO 5544 [egg-security] use methodnoallow middleware
+2017-02-21 15:14:05,943 INFO 5544 [egg-security] use noopen middleware
+2017-02-21 15:14:05,944 INFO 5544 [egg-security] use nosniff middleware
+2017-02-21 15:14:05,944 INFO 5544 [egg-security] use xssProtection middleware
+2017-02-21 15:14:05,944 INFO 5544 [egg-security] use xframe middleware
+2017-02-21 15:14:05,944 INFO 5544 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:14:05,966 INFO 5544 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:14:05,975 INFO 5544 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:14:05,976 INFO 5544 [egg-watcher:app] watcher start success
+2017-02-21 15:14:05,978 INFO 5544 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:14:05 GMT+0800 (CST)
+2017-02-21 15:14:13,405 INFO 5563 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:14:13,440 INFO 5563 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:14:13,440 INFO 5563 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:14:13,447 INFO 5563 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:14:13,507 INFO 5563 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:14:13,510 INFO 5563 [egg-security] use csrf middleware
+2017-02-21 15:14:13,511 INFO 5563 [egg-security] use methodnoallow middleware
+2017-02-21 15:14:13,511 INFO 5563 [egg-security] use noopen middleware
+2017-02-21 15:14:13,511 INFO 5563 [egg-security] use nosniff middleware
+2017-02-21 15:14:13,512 INFO 5563 [egg-security] use xssProtection middleware
+2017-02-21 15:14:13,512 INFO 5563 [egg-security] use xframe middleware
+2017-02-21 15:14:13,512 INFO 5563 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:14:13,535 INFO 5563 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:14:13,545 INFO 5563 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:14:13,545 INFO 5563 [egg-watcher:app] watcher start success
+2017-02-21 15:14:13,547 INFO 5563 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:14:13 GMT+0800 (CST)
+2017-02-21 15:14:15,076 INFO 5564 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:14:15,112 INFO 5564 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:14:15,113 INFO 5564 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:14:15,119 INFO 5564 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:14:15,185 INFO 5564 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:14:15,188 INFO 5564 [egg-security] use csrf middleware
+2017-02-21 15:14:15,189 INFO 5564 [egg-security] use methodnoallow middleware
+2017-02-21 15:14:15,189 INFO 5564 [egg-security] use noopen middleware
+2017-02-21 15:14:15,190 INFO 5564 [egg-security] use nosniff middleware
+2017-02-21 15:14:15,190 INFO 5564 [egg-security] use xssProtection middleware
+2017-02-21 15:14:15,191 INFO 5564 [egg-security] use xframe middleware
+2017-02-21 15:14:15,191 INFO 5564 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:14:15,215 INFO 5564 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:14:15,231 INFO 5564 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:14:15,231 INFO 5564 [egg-watcher:app] watcher start success
+2017-02-21 15:14:15,234 INFO 5564 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:14:15 GMT+0800 (CST)
+2017-02-21 15:15:06,209 INFO 5661 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:15:06,245 INFO 5661 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:15:06,246 INFO 5661 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:15:06,251 INFO 5661 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:15:06,313 INFO 5661 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:15:06,316 INFO 5661 [egg-security] use csrf middleware
+2017-02-21 15:15:06,316 INFO 5661 [egg-security] use methodnoallow middleware
+2017-02-21 15:15:06,317 INFO 5661 [egg-security] use noopen middleware
+2017-02-21 15:15:06,317 INFO 5661 [egg-security] use nosniff middleware
+2017-02-21 15:15:06,317 INFO 5661 [egg-security] use xssProtection middleware
+2017-02-21 15:15:06,318 INFO 5661 [egg-security] use xframe middleware
+2017-02-21 15:15:06,318 INFO 5661 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:15:06,338 INFO 5661 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:15:06,347 INFO 5661 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:15:06,347 INFO 5661 [egg-watcher:app] watcher start success
+2017-02-21 15:15:06,350 INFO 5661 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:15:06 GMT+0800 (CST)
+2017-02-21 15:15:11,086 INFO 5678 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:15:11,117 INFO 5678 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:15:11,117 INFO 5678 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:15:11,123 INFO 5678 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:15:11,188 INFO 5678 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:15:11,191 INFO 5678 [egg-security] use csrf middleware
+2017-02-21 15:15:11,192 INFO 5678 [egg-security] use methodnoallow middleware
+2017-02-21 15:15:11,192 INFO 5678 [egg-security] use noopen middleware
+2017-02-21 15:15:11,192 INFO 5678 [egg-security] use nosniff middleware
+2017-02-21 15:15:11,193 INFO 5678 [egg-security] use xssProtection middleware
+2017-02-21 15:15:11,193 INFO 5678 [egg-security] use xframe middleware
+2017-02-21 15:15:11,193 INFO 5678 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:15:11,214 INFO 5678 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:15:11,223 INFO 5678 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:15:11,223 INFO 5678 [egg-watcher:app] watcher start success
+2017-02-21 15:15:11,226 INFO 5678 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:15:11 GMT+0800 (CST)
+2017-02-21 15:15:12,777 INFO 5679 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:15:12,808 INFO 5679 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:15:12,808 INFO 5679 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:15:12,814 INFO 5679 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:15:12,872 INFO 5679 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:15:12,874 INFO 5679 [egg-security] use csrf middleware
+2017-02-21 15:15:12,875 INFO 5679 [egg-security] use methodnoallow middleware
+2017-02-21 15:15:12,875 INFO 5679 [egg-security] use noopen middleware
+2017-02-21 15:15:12,876 INFO 5679 [egg-security] use nosniff middleware
+2017-02-21 15:15:12,877 INFO 5679 [egg-security] use xssProtection middleware
+2017-02-21 15:15:12,877 INFO 5679 [egg-security] use xframe middleware
+2017-02-21 15:15:12,877 INFO 5679 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:15:12,900 INFO 5679 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:15:12,909 INFO 5679 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:15:12,910 INFO 5679 [egg-watcher:app] watcher start success
+2017-02-21 15:15:12,912 INFO 5679 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:15:12 GMT+0800 (CST)
+2017-02-21 15:15:13,604 INFO 5680 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:15:13,642 INFO 5680 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:15:13,642 INFO 5680 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:15:13,649 INFO 5680 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:15:13,713 INFO 5680 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:15:13,716 INFO 5680 [egg-security] use csrf middleware
+2017-02-21 15:15:13,716 INFO 5680 [egg-security] use methodnoallow middleware
+2017-02-21 15:15:13,716 INFO 5680 [egg-security] use noopen middleware
+2017-02-21 15:15:13,717 INFO 5680 [egg-security] use nosniff middleware
+2017-02-21 15:15:13,717 INFO 5680 [egg-security] use xssProtection middleware
+2017-02-21 15:15:13,718 INFO 5680 [egg-security] use xframe middleware
+2017-02-21 15:15:13,718 INFO 5680 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:15:13,739 INFO 5680 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:15:13,748 INFO 5680 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:15:13,749 INFO 5680 [egg-watcher:app] watcher start success
+2017-02-21 15:15:13,751 INFO 5680 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:15:13 GMT+0800 (CST)
+2017-02-21 15:17:20,435 INFO 5729 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:17:20,471 INFO 5729 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:17:20,471 INFO 5729 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:17:20,477 INFO 5729 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:17:20,540 INFO 5729 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:17:20,543 INFO 5729 [egg-security] use csrf middleware
+2017-02-21 15:17:20,543 INFO 5729 [egg-security] use methodnoallow middleware
+2017-02-21 15:17:20,544 INFO 5729 [egg-security] use noopen middleware
+2017-02-21 15:17:20,544 INFO 5729 [egg-security] use nosniff middleware
+2017-02-21 15:17:20,544 INFO 5729 [egg-security] use xssProtection middleware
+2017-02-21 15:17:20,545 INFO 5729 [egg-security] use xframe middleware
+2017-02-21 15:17:20,545 INFO 5729 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:17:20,565 INFO 5729 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:17:20,574 INFO 5729 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:17:20,574 INFO 5729 [egg-watcher:app] watcher start success
+2017-02-21 15:17:20,576 INFO 5729 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:17:20 GMT+0800 (CST)
+2017-02-21 15:17:22,145 INFO 5746 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:17:22,175 INFO 5746 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:17:22,176 INFO 5746 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:17:22,181 INFO 5746 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:17:22,251 INFO 5746 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:17:22,253 INFO 5746 [egg-security] use csrf middleware
+2017-02-21 15:17:22,254 INFO 5746 [egg-security] use methodnoallow middleware
+2017-02-21 15:17:22,254 INFO 5746 [egg-security] use noopen middleware
+2017-02-21 15:17:22,255 INFO 5746 [egg-security] use nosniff middleware
+2017-02-21 15:17:22,255 INFO 5746 [egg-security] use xssProtection middleware
+2017-02-21 15:17:22,255 INFO 5746 [egg-security] use xframe middleware
+2017-02-21 15:17:22,255 INFO 5746 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:17:22,277 INFO 5746 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:17:22,286 INFO 5746 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:17:22,286 INFO 5746 [egg-watcher:app] watcher start success
+2017-02-21 15:17:22,288 INFO 5746 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:17:22 GMT+0800 (CST)
+2017-02-21 15:17:23,921 INFO 5747 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:17:23,954 INFO 5747 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:17:23,954 INFO 5747 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:17:23,960 INFO 5747 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:17:24,022 INFO 5747 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:17:24,026 INFO 5747 [egg-security] use csrf middleware
+2017-02-21 15:17:24,027 INFO 5747 [egg-security] use methodnoallow middleware
+2017-02-21 15:17:24,027 INFO 5747 [egg-security] use noopen middleware
+2017-02-21 15:17:24,027 INFO 5747 [egg-security] use nosniff middleware
+2017-02-21 15:17:24,028 INFO 5747 [egg-security] use xssProtection middleware
+2017-02-21 15:17:24,028 INFO 5747 [egg-security] use xframe middleware
+2017-02-21 15:17:24,028 INFO 5747 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:17:24,051 INFO 5747 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:17:24,061 INFO 5747 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:17:24,061 INFO 5747 [egg-watcher:app] watcher start success
+2017-02-21 15:17:24,063 INFO 5747 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:17:24 GMT+0800 (CST)
+2017-02-21 15:17:25,682 INFO 5750 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:17:25,716 INFO 5750 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:17:25,717 INFO 5750 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:17:25,724 INFO 5750 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:17:25,788 INFO 5750 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:17:25,791 INFO 5750 [egg-security] use csrf middleware
+2017-02-21 15:17:25,791 INFO 5750 [egg-security] use methodnoallow middleware
+2017-02-21 15:17:25,792 INFO 5750 [egg-security] use noopen middleware
+2017-02-21 15:17:25,792 INFO 5750 [egg-security] use nosniff middleware
+2017-02-21 15:17:25,792 INFO 5750 [egg-security] use xssProtection middleware
+2017-02-21 15:17:25,793 INFO 5750 [egg-security] use xframe middleware
+2017-02-21 15:17:25,793 INFO 5750 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:17:25,814 INFO 5750 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:17:25,823 INFO 5750 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:17:25,823 INFO 5750 [egg-watcher:app] watcher start success
+2017-02-21 15:17:25,826 INFO 5750 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:17:25 GMT+0800 (CST)
+2017-02-21 15:19:25,588 INFO 5915 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:19:25,619 INFO 5915 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:19:25,619 INFO 5915 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:19:25,624 INFO 5915 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:19:25,688 INFO 5915 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:19:25,690 INFO 5915 [egg-security] use csrf middleware
+2017-02-21 15:19:25,691 INFO 5915 [egg-security] use methodnoallow middleware
+2017-02-21 15:19:25,691 INFO 5915 [egg-security] use noopen middleware
+2017-02-21 15:19:25,692 INFO 5915 [egg-security] use nosniff middleware
+2017-02-21 15:19:25,692 INFO 5915 [egg-security] use xssProtection middleware
+2017-02-21 15:19:25,692 INFO 5915 [egg-security] use xframe middleware
+2017-02-21 15:19:25,692 INFO 5915 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:19:25,712 INFO 5915 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:19:25,720 INFO 5915 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:19:25,720 INFO 5915 [egg-watcher:app] watcher start success
+2017-02-21 15:19:25,722 INFO 5915 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:19:25 GMT+0800 (CST)
+2017-02-21 15:19:26,432 INFO 5916 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:19:26,463 INFO 5916 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:19:26,464 INFO 5916 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:19:26,470 INFO 5916 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:19:26,532 INFO 5916 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:19:26,535 INFO 5916 [egg-security] use csrf middleware
+2017-02-21 15:19:26,536 INFO 5916 [egg-security] use methodnoallow middleware
+2017-02-21 15:19:26,536 INFO 5916 [egg-security] use noopen middleware
+2017-02-21 15:19:26,536 INFO 5916 [egg-security] use nosniff middleware
+2017-02-21 15:19:26,537 INFO 5916 [egg-security] use xssProtection middleware
+2017-02-21 15:19:26,537 INFO 5916 [egg-security] use xframe middleware
+2017-02-21 15:19:26,537 INFO 5916 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:19:26,558 INFO 5916 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:19:26,567 INFO 5916 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:19:26,567 INFO 5916 [egg-watcher:app] watcher start success
+2017-02-21 15:19:26,569 INFO 5916 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:19:26 GMT+0800 (CST)
+2017-02-21 15:19:27,250 INFO 5917 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:19:27,281 INFO 5917 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:19:27,281 INFO 5917 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:19:27,288 INFO 5917 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:19:27,350 INFO 5917 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:19:27,352 INFO 5917 [egg-security] use csrf middleware
+2017-02-21 15:19:27,353 INFO 5917 [egg-security] use methodnoallow middleware
+2017-02-21 15:19:27,353 INFO 5917 [egg-security] use noopen middleware
+2017-02-21 15:19:27,353 INFO 5917 [egg-security] use nosniff middleware
+2017-02-21 15:19:27,354 INFO 5917 [egg-security] use xssProtection middleware
+2017-02-21 15:19:27,354 INFO 5917 [egg-security] use xframe middleware
+2017-02-21 15:19:27,354 INFO 5917 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:19:27,374 INFO 5917 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:19:27,382 INFO 5917 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:19:27,383 INFO 5917 [egg-watcher:app] watcher start success
+2017-02-21 15:19:27,385 INFO 5917 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:19:27 GMT+0800 (CST)
+2017-02-21 15:19:33,702 INFO 5918 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-02-21 15:19:33,736 INFO 5918 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-02-21 15:19:33,736 INFO 5918 [egg-schedule]: register schedule egg-schedule:/Users/yanming/Desktop/egg-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-02-21 15:19:33,743 INFO 5918 [egg-mysql] connecting root@127.0.0.1:3306/javaee
+2017-02-21 15:19:33,811 INFO 5918 [egg-static] starting static serve /public/ -> /Users/yanming/Desktop/egg-node/app/public
+2017-02-21 15:19:33,814 INFO 5918 [egg-security] use csrf middleware
+2017-02-21 15:19:33,815 INFO 5918 [egg-security] use methodnoallow middleware
+2017-02-21 15:19:33,815 INFO 5918 [egg-security] use noopen middleware
+2017-02-21 15:19:33,815 INFO 5918 [egg-security] use nosniff middleware
+2017-02-21 15:19:33,816 INFO 5918 [egg-security] use xssProtection middleware
+2017-02-21 15:19:33,816 INFO 5918 [egg-security] use xframe middleware
+2017-02-21 15:19:33,816 INFO 5918 [egg-security] compose 6 middlewares into one security middleware
+2017-02-21 15:19:33,837 INFO 5918 [ClusterClient#Watcher] failed to seize port 56162, and this is follower client.
+2017-02-21 15:19:33,845 INFO 5918 [Follower#Watcher] register to channel: Watcher success
+2017-02-21 15:19:33,846 INFO 5918 [egg-watcher:app] watcher start success
+2017-02-21 15:19:33,848 INFO 5918 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 21 2017 15:19:33 GMT+0800 (CST)
