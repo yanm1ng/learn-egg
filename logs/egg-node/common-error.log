@@ -2571,3 +2571,34 @@ name: 'ER_BAD_FIELD_ERRORError'
 pid: 10198
 hostname: MacBook-Pro.local
 
+2017-02-21 14:59:08,487 ERROR 4714 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at PoolConnection.connect (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Connection.js:130:18)
+    at Pool.getConnection (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/Users/yanming/Desktop/egg-node/node_modules/mysql/lib/Pool.js:202:8)
+    at /Users/yanming/Desktop/egg-node/node_modules/ali-rds/lib/client.js:28:10
+    at /Users/yanming/Desktop/egg-node/node_modules/co/index.js:136:8
+    at thunkToPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:135:10)
+    at toPromise (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:119:55)
+    at next (/Users/yanming/Desktop/egg-node/node_modules/co/index.js:99:29)
+    sql: select now() as currentTime;
+code: 'ER_ACCESS_DENIED_ERROR'
+errno: 1045
+sqlState: '28000'
+fatal: true
+name: 'ER_ACCESS_DENIED_ERRORError'
+pid: 4714
+hostname: MacBook-Pro.local
+

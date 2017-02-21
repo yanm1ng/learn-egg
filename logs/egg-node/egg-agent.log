@@ -551,3 +551,16 @@
 2017-02-14 11:32:20,512 INFO 16050 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487043117354
 2017-02-14 11:32:20,713 WARN 16050 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/app/controller/home.js change
 2017-02-14 11:32:21,192 INFO 16050 [Leader#Watcher] socket connected, port: 57341
+2017-02-21 14:59:07,827 INFO 4713 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-02-21 14:59:07,845 INFO 4713 [ClusterClient#Watcher] subscribe ["/Users/yanming/Desktop/egg-node/app","/Users/yanming/Desktop/egg-node/config","/Users/yanming/Desktop/egg-node/mocks","/Users/yanming/Desktop/egg-node/mocks_proxy"]
+2017-02-21 14:59:07,900 INFO 4713 [ClusterClient#Watcher] has seized port 56145, and this is leader client.
+2017-02-21 14:59:07,902 INFO 4713 [egg-watcher:agent] watcher start success
+2017-02-21 14:59:08,479 INFO 4713 [Leader#Watcher] socket connected, port: 56148
+2017-02-21 15:00:42,305 INFO 4827 [egg:logger] init all loggers with options: {"dir":"/Users/yanming/Desktop/egg-node/logs/egg-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"egg-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-02-21 15:00:42,316 INFO 4827 [ClusterClient#Watcher] subscribe ["/Users/yanming/Desktop/egg-node/app","/Users/yanming/Desktop/egg-node/config","/Users/yanming/Desktop/egg-node/mocks","/Users/yanming/Desktop/egg-node/mocks_proxy"]
+2017-02-21 15:00:42,358 INFO 4827 [ClusterClient#Watcher] has seized port 56162, and this is leader client.
+2017-02-21 15:00:42,360 INFO 4827 [egg-watcher:agent] watcher start success
+2017-02-21 15:00:42,851 INFO 4827 [Leader#Watcher] socket connected, port: 56165
+2017-02-21 15:02:01,365 INFO 4827 [Leader#Watcher] push subscribe data to cluster client#mock_conn_1487660442359
+2017-02-21 15:02:01,565 WARN 4827 [agent:development] reload worker because /Users/yanming/Desktop/egg-node/config/config.default.js change
+2017-02-21 15:02:02,104 INFO 4827 [Leader#Watcher] socket connected, port: 56187

@@ -6,9 +6,9 @@ exports.mysql = {
     host: '127.0.0.1',
     port: '3306',
     user: 'root',
-    password: 'root',
+    password: 'amazing1121',
     // 数据库名
-    database: 'node',
+    database: 'javaee',
   },
   // 是否加载到 app 上，默认开启
   app: true,

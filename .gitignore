@@ -6,11 +6,16 @@ node_modules/
 
 #log
 .log
+logs/
 
 #IDE
 .idea/
 
 # git
 *.diff
+
+#database config
+
+config/config.default.js
 
 

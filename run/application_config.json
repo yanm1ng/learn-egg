@@ -137,7 +137,6 @@
       "description": "egg-node-test",
       "main": "index.js",
       "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "egg-bin dev"
       },
       "author": "",
